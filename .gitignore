@@ -1,0 +1,14 @@
+# Secrets & Spotify token cache - never commit
+.env
+.cache
+.cache-*
+
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Notebook / OS clutter
+.ipynb_checkpoints/
+.DS_Store
