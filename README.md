@@ -40,7 +40,7 @@ Python · scikit-learn · Pandas · NumPy · Hugging Face Datasets · Spotipy (S
 ## Project Structure
 
 ```
-mood-music-recommender/
+emotionmusicrecommendation/
 ├── data/                        # Cleaned train/test CSVs
 ├── models/
 │   ├── mood_model.joblib        # Trained vectorizer + model
@@ -58,8 +58,8 @@ mood-music-recommender/
 ## Getting Started
 
 ```bash
-git clone https://github.com/senasagdc/mood-music-recommender.git
-cd mood-music-recommender
+git clone https://github.com/senasagdc/emotionmusicrecommendation.git
+cd emotionmusicrecommendation
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
